@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+    >
+
+    <com.github.spareyaya.SimpleRatingView
+        android:id="@+id/simple_rating_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.github.spareyaya.SimpleRatingView
+        android:id="@+id/simple_rating_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:starType="heart"
+        />
+
+    <com.github.spareyaya.SimpleRatingView
+        android:id="@+id/simple_rating_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:starType="star"
+        app:numStars="7"
+        app:rating="6"
+        />
+
+    <com.github.spareyaya.SimpleRatingView
+        android:id="@+id/simple_rating_view_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:starType="heart"
+        app:numStars="6"
+        app:rating="4"
+        />
+
+    <com.github.spareyaya.SimpleRatingView
+        android:id="@+id/simple_rating_view_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:starType="star"
+        app:numStars="5"
+        app:rating="4"
+        app:starSize="48dp"
+        app:starSpacing="24dp"
+        app:primaryColor="#60C720"
+        app:secondaryColor="#4EA0F1"
+        />
+
+</LinearLayout>

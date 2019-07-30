@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleRatingView">
+        <attr name="starType" format="enum">
+            <enum name="star" value="1"/>
+            <enum name="heart" value="2"/>
+        </attr>
+        <attr name="starSize" format="dimension" />
+        <attr name="starSpacing" format="dimension" />
+        <attr name="numStars" format="integer" />
+        <attr name="rating" format="integer" />
+        <attr name="primaryColor" format="color" />
+        <attr name="secondaryColor" format="color" />
+    </declare-styleable>
+</resources>
