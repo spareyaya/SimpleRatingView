@@ -20,6 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         app:starType="heart"
+        app:rating="3"
+        app:starSize="50dp"
+        app:primaryColor="#FF6D00"
         />
 
     <com.github.spareyaya.SimpleRatingView

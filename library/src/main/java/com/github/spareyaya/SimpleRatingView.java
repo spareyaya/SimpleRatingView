@@ -236,6 +236,10 @@ public class SimpleRatingView extends View {
         invalidate();
     }
 
+    public int getRating() {
+        return this.rating;
+    }
+
     public void setPrimaryColor(int primaryColor) {
         this.primaryColor = primaryColor;
         invalidate();

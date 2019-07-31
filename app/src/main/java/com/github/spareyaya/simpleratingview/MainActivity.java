@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "oldRating:" + oldRating + " newRating:" + newRating, Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 }
