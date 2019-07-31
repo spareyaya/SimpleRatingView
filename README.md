@@ -39,7 +39,7 @@ allprojects {
 ```groovy
 dependencies {
     ...
-    implementation 'com.github.spareyaya:SimpleRatingView:v1.0.3-beta'
+    implementation 'com.github.spareyaya:SimpleRatingView:v1.0.5-beta'
 }
 ```
 
