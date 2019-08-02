@@ -64,7 +64,7 @@ dependencies {
 注意：
 
 1. 以上属性都有默认值，可以自行选择部分属性进行设置
-2. 组件的大小是由padding值、评星数量（numStars）、评星大小（starSize）和评星之间的空隙（starSpacing）决定的，`android:layout_width`和`android:layout_height`不起作用。
+2. 组件的大小是由padding值、评星数量（numStars）、评星大小（starSize）和评星之间的空隙（starSpacing）决定的：宽度 = 评星大小 * 评星数量 + 评星之间的空隙 * （评星数量 - 1） + paddingLeft + paddingRight，高度 = 评星大小 + paddingTop + paddingBottom，`android:layout_width`和`android:layout_height`不起作用，建议设置为`wrap_content`。
 
 
 
