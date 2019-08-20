@@ -72,7 +72,7 @@ dependencies {
 
 ```java
 simpleRatingView1.setOnRatingChangeListener(new SimpleRatingView.OnRatingChangeListener() {
-	@Override
+    @Override
     public void onRatingChange(int oldRating, int newRating) {
     	Toast.makeText(MainActivity.this, "oldRating:" + oldRating + " newRating:" + newRating, Toast.LENGTH_SHORT).show();
     }
